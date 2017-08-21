@@ -1,5 +1,10 @@
+//variables are publc unless stated otherwise
+//protected cannot be seen by other classes, inhereter can also see it, not from an instance
+
+// private only class can see it, no one else
+//
 open class Operations(){
-     var ProcessName:String?=null
+     var ProcessName:String?=null //public by deafault
     fun sum(n1:Int,n2:Int):Int{
         return n1+n2
     }
