@@ -9,8 +9,9 @@ open class Operations1(){
 }
 
 class  MultiOperations1:Operations1{
-   constructor(): super(){
-
+   constructor(): super(){ //call super contructor
+    //this.sub(2,3)//USE THIS CLASS TO CALL SUB FUNCTION
+       //suppper.sum(n1,n2)//calls from class inherited from
    }
     override fun sum(n1:Int,n2:Int):Int{ //this function is overrided. 
         //This method is used insted of original
@@ -38,12 +39,12 @@ fun main(args:Array<String>){
     println("div:"+ div)
 
     // second
-    var op2=MultiOperations1()
+    var op2=MultiOperations1() //as operations1//to cast, conver one class to the other
     sum=op2.sum(10,15)//does not go to parent class because of overriding
     println("sum:"+ sum)
     div= op2.div(12,11)
     println("div:"+ div)
-
+    
 
 
 }
