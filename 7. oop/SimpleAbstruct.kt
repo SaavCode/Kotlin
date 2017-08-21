@@ -1,7 +1,7 @@
-abstract class CreditCard(){
+abstract class CreditCard(){//abstractno implementation
     fun CreditID():String
     { return "23432dsdfds"}
-    abstract fun newCredir()
+    abstract fun newCredir()//abstract means this method does not have an implementation
 
 }
 
@@ -10,7 +10,7 @@ class UserInfo(): CreditCard(){
     fun getInfo():String{
         return CreditID();
     }
-    override  fun newCredir(){
+    override  fun newCredir(){ //add impmlementation to abstract class. inhereter has to implement
         println(" new cart created")
     }
 }
