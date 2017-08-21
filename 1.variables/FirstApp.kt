@@ -2,8 +2,8 @@
 
 fun main(args:Array<String>){
 
-  print("hi hussein,\n")
+  print("hi nestor,\n")
   print("Welcome to Kotlin")
-  print(3)
+  print(5)
 
 }
