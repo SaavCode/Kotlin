@@ -1,12 +1,12 @@
 
 class Outer {
 
-    private  val name:String?=null
-
+    private  val name:String?=null//no value
+//nested class
    inner class Nested {
         
         fun Show(){
-            println(name)
+            println(name)//print from outer
         }
     }
 
@@ -15,9 +15,9 @@ class Outer {
 
 fun  main(args:Array<String>){
 
-   var outer=Outer()
+   var outer=Outer()//create instance
     //var nested=Outer.Nested()
-   // nested.Show()
+   // nested.Show()//call nested class
 
 
 }
