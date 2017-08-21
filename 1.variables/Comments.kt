@@ -1,21 +1,21 @@
 
-// This main function
+// Main function
 fun main(args:Array<String>){
-    //Enter user name
-    print("Enter name:")
+    //ask for username
+    print("Enter your name:")
     var name= readLine()
-    print("Enter age:")
+    print("Enter your age:")
     var age:Int= readLine()!!.toInt()
-    print("Enter department:")
+    print("Enter your department:")
     var dep:String?
     dep= readLine()
     print("Enter pi:")
     var pi:Double= readLine()!!.toDouble()
 
-    /* print output
-     to allow users to see the varibles values
+    /*
+    print output
      */
-    println("**** output *****")
+    println("OUTPUT")
     println("name:"+ name)
     println("age:"+ age)
     println("department:"+ dep)
