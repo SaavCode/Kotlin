@@ -1,14 +1,13 @@
 
 fun main(args:Array<String>){
 
-     val name="hussein"
+     val name="nestor"
      val age=28
      val dep:String?
-     dep="Software engineering"
+     dep="Computer Science"
      println("name:"+ name)
      println("age:"+ age)
      println("department:"+ dep)
      val pi:Double=3.4
-
 
 }
