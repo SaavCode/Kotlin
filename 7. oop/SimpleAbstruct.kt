@@ -6,7 +6,7 @@ abstract class CreditCard(){
 }
 
 class UserInfo(): CreditCard(){
-
+    //this class will return credit card info
     fun getInfo():String{
         return CreditID();
     }
@@ -18,9 +18,10 @@ class UserInfo(): CreditCard(){
 
 
 fun main(args:Array<String>){
-
+    //this willnot work
     //var credit=CreditCard()
     //println(credit.CreditID())
+    //get user info
     var user=UserInfo()
-    println(user.getInfo())
+    println(user.getInfo())//print info
 }
