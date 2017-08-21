@@ -1,16 +1,16 @@
 
 fun main(args:Array<String>){
     print("Enter name:")
-    var name= readLine()
+    var name= readLine()//read input
     print("Enter age:")
-    var age:Int= readLine()!!.toInt()
+    var age:Int= readLine()!!.toInt()//conver to int
     print("Enter department:")
-    var dep:String?
+    var dep:String? //could be null
     dep= readLine()
     print("Enter pi:")
-    var pi:Double= readLine()!!.toDouble()
+    var pi:Double= readLine()!!.toDouble() //conver to double
 
-    println("**** output *****")
+    println("out")
     println("name:"+ name)
     println("age:"+ age)
     println("department:"+ dep)
