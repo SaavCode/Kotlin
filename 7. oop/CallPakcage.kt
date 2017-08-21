@@ -1,8 +1,8 @@
-import com.example.cars.*
+//get from another package, useful for bigger projects
+import com.example.cars.MyCar//import the package
 fun  main(args:Array<String>){
- var myclas=MyCar()
-    myclas.ShowInfo()
-
+ var myclass=MyCar()
+    myclass.ShowInfo()
 
 }
 
